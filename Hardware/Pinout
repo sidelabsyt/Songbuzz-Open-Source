@@ -1,0 +1,11 @@
+const int PIN_BTN_BIG = 2;
+const int PIN_BTN_L   = 5;
+const int PIN_BTN_R   = 6;
+const int PIN_LED     = 3;
+const int NUM_LEDS    = 8;
+const int SCL = 8;
+const int SDA = 9;
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define SCREEN_ADDRESS 0x3C 

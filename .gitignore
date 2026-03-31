@@ -1,0 +1,5 @@
+credintals.py
+.spotify_cache
+**/__pycache__
+assets/uploads
+.venv
