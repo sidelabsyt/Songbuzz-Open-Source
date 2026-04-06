@@ -234,6 +234,6 @@ For testing without hardware, `virtual_buzzers.py` simulates buzzer connections 
 
 ## License
 
-© 2025 Elias Köhle. This project is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+© 2025 sidelabsyt. This project is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
 
 **You are free to:** share, copy, modify, and build upon this project — as long as you give appropriate credit and **do not use it for commercial purposes**.
