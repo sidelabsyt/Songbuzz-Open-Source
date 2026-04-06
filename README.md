@@ -1,6 +1,12 @@
 # 🎵 SongBuzz
 
 > A self-hosted, hardware-powered music quiz game. Spotify songs stream to your speakers, players smash physical buzzers, and a live scoreboard runs on any screen in the room.
+---
+## The Game Idea
+
+A real-life music quiz game where players buzz in with physical controllers to guess songs as fast as possible.
+
+Each player gets a physical buzzer and joins the game by scanning a QR code shown on the TV, where they can assign themselves to one of the available devices. At the start of each round, one player acts as the judge and sees the upcoming track on their buzzer’s OLED display. Once ready, the judge starts the round and the song begins playing. The other players have to guess the song title and artist as fast as possible. As soon as someone thinks they know it, they hit their buzzer, which immediately stops the music. The player gives their answer, and the judge decides: if it’s wrong, they press the red button, the round continues, and that player is locked out for the rest of the round. If the answer is correct, the round ends and the player earns a point. I’ve tested this with up to 8 people multiple times, and it consistently turns into a really fun party game since it combines music with competitive gameplay.
 
 ---
 
@@ -152,7 +158,7 @@ Install these via the Arduino Library Manager:
 
 ### Links
 Original buzzer design (used as a starting point):
-https://www.thingiverse.com/thing:675...
+https://www.thingiverse.com/thing:6755106/files
 
 Parts used (*Affiliate Links – I earn a small commission if you buy through these links):
 
@@ -189,14 +195,14 @@ The `Hardware/3D_Files/` folder contains all printable parts:
 
 | File | Description |
 |---|---|
-| `Base.stl` | Main enclosure body |
-| `Cover.stl` | Top cover |
-| `CoverLid.stl` | Lid for cable access |
-| `Button_Translucent.3mf` | Big buzz button (print in translucent PETG for LED glow) |
-| `Keycaps.3mf` | LEFT / RIGHT button caps |
-| `Slider_Translucent.3mf` | Decorative LED diffuser slider |
-| `Spring_PETG.stl` | Button return spring |
-| `Stecken.3mf` | Internal mounting pegs |
+| `Base.stl` | Main enclosure body bottom - PLA|
+| `Cover.stl` | Top cover - PLA|
+| `CoverLid.stl` | Front Lid for cable access and Display - PLA |
+| `Button_Translucent.3mf` | Big buzz button (print in translucent PLA for LED glow) |
+| `Keycaps.3mf` | LEFT / RIGHT button caps - PLA |
+| `Slider_Translucent.3mf` | Slider vor Big Buzz Button - PLA Translucent |
+| `Spring_PETG.stl` | Button return spring - PETG!!|
+| `Stecken.3mf` | Peg for MX Switch of Big Buzzer - PLA |
 
 ---
 
